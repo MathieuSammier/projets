@@ -1,0 +1,43 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////// SLR - CHALLENGE ////////////////////////////////////////////////////
+///////////////////////////////////////////////   REDACTION    /////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Voici un ensemble d'information à savoir pour pouvoir rédiger un nouvel article sur le site Welcome de SLr-Challenge.
+
+Pour accéder a la page de redaction:
+	url : http://slr-challenge.fr/SLr-Mathieu/Redacteur/Redacteur.php
+	mdp : SLrRedacteur  (Attention à la Casse)
+
+Rédiger un article complet:
+	L'article doit contenir :
+		- un titre limité à "~60 535  64*10^3" caractères.
+		- une image au format png d'une taille maximal de 2Mo et renommé de façon a pouvoir l'identifier facilement sans caractère spéciaux ( caractère alphanumérique et _ autorisés avec prise en charge de la casse) et contenant moin de "~60 535  64*10^3" caractères.
+		- un contenue sur le quels il est possible de mettre des caractères en gras ou italic , de faire des listes numeroté ou non, de changer l'alignement et d'ajouter des liens. ce texte est limité à "~3 294 967 295  4*10^9" caractères.
+
+Pour envoyer l'article Appuyer sur envoyé si une erreur a lieux lors de l'envoie des information vous serons donné en dessous du bouton envoyer.
+
+ATTENTION : Il est pour l'instant impossible de supprimer un article sans passer par la base de donné ni de supprimer une stocké sur la serveur sans passé directement par le ftp. Si vous avez fait une erreur l'ors de la création de votre article et que vous souhaité le supprimé merci de bien vouloir prévenir un dévelloppeur qui ce chargera de supprimé ce contenue. C'est differente option seront disponible prochainement.
+
+
+Les different affichage de l'article :
+	Sur l'aceuil rubrique blog :
+		-Image
+		-titre
+		-date
+		-les 120 premier caractère du contenue.
+	Les article sont renger par date puis par ordre alphabètique du titre.
+
+	Sur la page correspondant à l'article( en cours de dévelloppement pas encore disponible ):
+		-titre
+		-date
+		-image
+		-le contenue complet.
+
+Evolution future:
+	-Redaction de news en plus des articles du blog.
+	-Possibilité de modifictaion d'article existant.
+	-Possibilité de suppresssion d'article existant.
+	-affichage d'une page spécifique pour chaque article.
+	-peut etre ajouté un peu de deco a la page redaction pour rendre l'écriture plus joyeuse :).

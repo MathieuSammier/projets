@@ -1,0 +1,495 @@
+/* 
+   ------------------------------------------------------
+					Responsive
+   ------------------------------------------------------
+*/
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	/*------------------------------------------*/
+	/*	 INTRODUCTION CONTENU
+	/*------------------------------------------*/
+	
+	#intro h2 {	font-size: 70px; line-height: 80px;}
+	.intro_text p {	font-size: 16px; }
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION ENREGISTREMENT 
+	/*------------------------------------------*/
+
+	.form_register form { margin: 0 15px;}
+	
+	/*------------------------------------------*/
+	/*	TABS HOLDER IMAGES
+	/*------------------------------------------*/
+
+	#tabs-holder img { margin-top: 40px;} 
+	
+	/*------------------------------------------*/
+	/*	ACCORDION HOLDER IMAGES
+	/*------------------------------------------*/
+
+	#accordion-holder img { margin-top: 60px;} 
+
+	/*------------------------------------------*/
+	/*	  STATISTIQUES
+	/*------------------------------------------*/ 
+
+	.statistic-number {font-size: 80px; line-height: 80px; }
+	.statistic-text {font-size: 22px;}
+		
+	/*------------------------------------------*/
+	/*	 PHOTO MAJ CONTENU 
+	/*------------------------------------------*/
+	
+	.overlay-content h4 {font-size: 20px;}
+	.portfolio-item:hover .overlay-content { bottom: 35%; }
+	
+}
+
+
+@media only screen and (max-width: 991px){
+
+	/*------------------------------------------*/
+	/*	 Menu    
+	/*------------------------------------------*/
+
+	.navbar-nav > li > a {padding: 0 10px; }
+
+	/*------------------------------------------*/
+	/*	 INTRODUCTION CONTENU
+	/*------------------------------------------*/
+	
+	#intro_content {padding-top: 190px; padding-bottom: 140px; text-align: center; }
+	#intro h2 {	font-size: 70px; line-height: 80px; padding: 0 4%;}
+	#intro h3 {	font-size: 32px; }
+	.intro_text p {	padding: 0 15%; }
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION BOUTONS
+	/*------------------------------------------*/
+
+	.intro_buttons { margin-bottom: 40px; text-align: center; }
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION ENREGISTREMENT  
+	/*------------------------------------------*/
+
+	#intro_form { width: 76%; margin-left: 12%;}
+	
+	/*------------------------------------------*/
+	/*	  CARACTERISTIQUES
+	/*------------------------------------------*/
+	
+	.features-box { text-align: center;}
+
+	/*------------------------------------------*/
+	/*	  CARACTERISTIQUES icones
+	/*------------------------------------------*/
+
+	.icon-box { width: auto; height: auto; float: none !important;margin-bottom: 10px;}
+	.icon-box i {margin-top: 0;}
+	
+	/*------------------------------------------*/
+	/*	  CARACTERISTIQUES textes
+	/*------------------------------------------*/
+
+	.features-text { padding: 0px;}
+	.features-text p {padding-right: 0;}
+
+	/*------------------------------------------*/
+	/*	TABS HOLDER IMAGES
+	/*------------------------------------------*/
+
+	#tabs-holder img { margin-top: 30px; margin-bottom: 20px;} 
+	
+	/*------------------------------------------*/
+	/*	ACCORDION HOLDER IMAGES
+	/*------------------------------------------*/
+
+	#accordion-holder img { margin-bottom: 40px;} 
+	
+	/*------------------------------------------*/
+	/*	 Messages Textes
+	/*------------------------------------------*/
+
+	.client-msg p {font-size: 16px; line-height: 24px;}
+	
+	/*------------------------------------------*/
+	/*	  STATISTIQUES BLOCK
+	/*------------------------------------------*/ 
+
+	.statistic-number {font-size: 75px; line-height: 75px; }
+	.statistic-text {font-size: 20px;}
+	
+	/*------------------------------------------*/
+	/*	Calendrier Objet Contenu
+	/*------------------------------------------*/
+	
+	.timeline-item-content { text-align: center;}
+	
+	/*------------------------------------------*/
+	/*	Calendrier Objet Contenu Arrow
+	/*------------------------------------------*/
+
+	.timeline-item:before,
+	.timeline-item-content:before, 
+	.timeline-item-content.pull-right:before { display: none;}  
+			
+	/*------------------------------------------*/
+	/*	 Photo Overlay Contenu 
+	/*------------------------------------------*/
+	
+	.overlay-content h4 {font-size: 20px;}
+	.portfolio-item:hover .overlay-content { bottom: 35%; }
+	
+	/*------------------------------------------*/
+	/*	   Boutons Réglages
+	/*------------------------------------------*/ 
+
+	#gallery-filter .btn-group > .btn {font-size: 14px;margin: 0 3px;padding: 6px 12px;}
+	
+	/*------------------------------------------*/
+	/*	 Partenaire
+	/*------------------------------------------*/
+
+	.customNavigation {right: 47%;}
+	
+	
+}
+
+
+@media only screen and (max-width: 767px){
+
+	/*------------------------------------------*/
+	/*	 Titres
+	/*------------------------------------------*/
+
+	.titlebar h2 {font-size: 32px;}
+	.titlebar h3 {font-size: 22px;}
+	.titlebar h2:after { width: 140px;}
+
+	#services, #features, #about, #about-1, #skills, #history, #team, #pricing, #blog, #contact-info, #testimonials, #contact { padding-left: 30px; padding-right: 30px; }
+	
+	/*------------------------------------------*/
+	/*	 Logo  
+	/*------------------------------------------*/
+
+	.navbar-brand {padding: 20px 30px;}  
+	
+	/*------------------------------------------*/
+	/*	 Menu    
+	/*------------------------------------------*/
+
+	.navbar { background-color: #262626; padding: 0px; }
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+	
+	.navbar-nav { margin: 0 -15px; border-top: 1px solid #444; background-color: #262626;}	
+	.navbar-nav > li { text-align: center;}
+	.navbar-nav > li > a { line-height: 45px; text-align: center;}	
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION CONTENU
+	/*------------------------------------------*/
+	
+	#intro_content {padding-top: 160px; padding-bottom: 120px;text-align: center; }
+	#intro h2 {	font-size: 60px; line-height: 70px; padding: 0 8%;}
+	#intro h3 {	font-size: 30px; }
+	.intro_text p {	padding: 0 15%;}
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION BOUTONS
+	/*------------------------------------------*/
+
+	.intro_buttons .btn-theme {font-size: 16px; padding: 8px 16px;}
+		
+	/*------------------------------------------*/
+	/*	 Cercle Avancée
+	/*------------------------------------------*/
+
+	#skills {padding-bottom: 20px;}
+	#skills .col-sm-3 { margin-bottom: 60px;}
+	
+	/*------------------------------------------*/
+	/*	  STATISTIQUES BLOCK
+	/*------------------------------------------*/ 
+
+	.statistic-number {font-size: 60px; line-height: 55px; }
+	.statistic-text {font-size: 18px;}
+	
+	/*------------------------------------------*/
+	/*	 Photo Overlay Contenu 
+	/*------------------------------------------*/
+	
+	.portfolio-item:hover .overlay-content { bottom: 38%; }
+	
+	/*------------------------------------------*/
+	/*	  TEMOIGNAGES
+	/*------------------------------------------*/ 
+
+	.testimonial { padding: 0 10%; margin-bottom: 30px;}
+
+	
+}
+
+
+@media only screen and (max-width: 640px){
+
+	/*------------------------------------------*/
+	/*	 INTRODUCTION CONTENU
+	/*------------------------------------------*/
+	
+	#intro_content {padding-top: 150px; padding-bottom: 100px; }
+	#intro h2 {	font-size: 55px; line-height: 65px; padding: 0 5%;}
+	#intro h3 {	font-size: 28px; }
+	.intro_text p {	font-size: 16px; padding: 0 12%;}
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION ENREGISTREMENT  
+	/*------------------------------------------*/
+
+	#intro_form { width: 80%; margin-left: 10%;}
+	
+	/*------------------------------------------*/
+	/*	  Services Boites
+	/*------------------------------------------*/
+
+	.service-box h4 {font-size: 18px;}
+	.service-box p {font-size: 14px; line-height: 24px;}
+	
+	/*------------------------------------------*/
+	/*	  CARACTERISTIQUES BOites TEXTES
+	/*------------------------------------------*/
+
+	.features-text p {font-size: 14px; line-height: 22px;}
+	
+	/*------------------------------------------*/
+	/*	TABS
+	/*------------------------------------------*/
+
+	.nav-tabs > li > a {font-size: 20px;}
+
+	/*------------------------------------------*/
+	/*	Tab Description
+	/*------------------------------------------*/
+
+	.tab-content > .tab-pane p {font-size: 14px; line-height: 24px;}
+		
+	/*------------------------------------------*/
+	/*	Titre pannel
+	/*------------------------------------------*/
+
+	.panel-title {font-size: 18px;}
+	
+	/*------------------------------------------*/
+	/*	Titre Icones Pannel
+	/*------------------------------------------*/
+
+	.panel-title i {font-size: 24px;}
+
+	/*------------------------------------------*/
+	/*	Pannel Contenu 
+	/*------------------------------------------*/
+
+	.panel-body {font-size: 14px;line-height: 24px;}
+	
+	/*------------------------------------------*/
+	/*	  Membre de l'équipe
+	/*------------------------------------------*/
+	
+	.team_members_wrapper .col-xs-6 { width: 100%; float: none !important;  }
+	.team-img-meta p {padding: 0 10%;}
+	
+
+	/*------------------------------------------*/
+	/*	  STATISTIQUES BLOCK
+	/*------------------------------------------*/ 
+
+	.statistic-number {font-size: 50px; line-height: 50px; }
+	.statistic-text {font-size: 18px;}
+	
+	/*------------------------------------------*/
+	/*	 CALENDRIER OBJET 
+	/*------------------------------------------*/
+	
+	.timeline-item-content {font-size: 14px;line-height: 24px;}
+	
+	/*------------------------------------------*/
+	/*	  TEMOIGNAGES
+	/*------------------------------------------*/ 
+
+	.testimonial { padding: 0 5%;}
+	
+	
+}
+
+
+@media (max-width: 480px) {
+
+	#stlChanger {display: none;}
+
+	/*------------------------------------------*/
+	/*	 Titres
+	/*------------------------------------------*/
+
+	.titlebar h2 {font-size: 30px;}
+	.titlebar h3 {font-size: 20px;}
+	.titlebar h2:after { width: 120px;}
+
+	#services, #features, #about,  #about-1, #skills, #history, #team, #pricing, #blog, #contact-info, #testimonials, #contact { padding-left: 15px; padding-right: 15px; }
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION CONTENU
+	/*------------------------------------------*/
+	
+	#intro_content {padding-top: 150px; padding-bottom: 100px; }
+	#intro h2 {	font-size: 50px; line-height: 55px; padding: 0 5%;}
+	#intro h3 {	font-size: 24px; margin-bottom: 20px; }
+	.intro_text p {	font-size: 16px; padding: 0 5%;}
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION BOUTONS
+	/*------------------------------------------*/
+	
+	.intro_buttons .btn-theme {font-size: 14px; padding: 7px 14px;}
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION ENREGISTREMENT  
+	/*------------------------------------------*/
+
+	#intro_form { width: 100%; margin-left: 0%;}
+	.form_register form { margin: 0 15px;}
+	
+	/*------------------------------------------*/
+	/*	 Cercle Avancée
+	/*------------------------------------------*/
+
+	#skills .col-sm-3 { width: 100%; float: none!important;}
+	
+	/*------------------------------------------*/
+	/*	  Statistiques
+	/*------------------------------------------*/ 
+	
+	#statistic_banner {padding-top: 80px; padding-bottom: 80px;}
+	#statistic_banner .titlebar {margin-bottom: 30px;}
+	.statistic-block {width: 100%; float: none; margin-top: 40px;}
+	.statistic-number {font-size: 60px; line-height: 60px; }
+	.statistic-text {font-size: 20px;}
+
+	/*------------------------------------------*/
+	/*	  Photo Objet
+	/*------------------------------------------*/
+	
+	.portfolio-item { width: 100%; float: none !important; }
+	
+	/*------------------------------------------*/
+	/*	   Photo Boutons Réglages
+	/*------------------------------------------*/ 
+
+	#gallery-filter .btn-group > .btn {font-size: 14px; margin: 0 3px 5px; padding: 5px 10px;}
+	
+	/*------------------------------------------*/
+	/*	  Membres de l'équipe / Description
+	/*------------------------------------------*/
+
+	.team-img-meta p {padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Partenaires
+	/*------------------------------------------*/
+	
+	#clients {padding-bottom: 80px;}
+	.customNavigation {display: none;}
+	
+	
+	/*------------------------------------------*/
+	/*	  TEMOIGNAGES
+	/*------------------------------------------*/ 
+
+	#testimonials h3 { font-size: 24px; line-height: 32px;}
+	.testimonial { padding: 0;}
+	
+	
+	/*------------------------------------------*/
+	/*	 Contact Info
+	/*------------------------------------------*/  
+	
+	.contact-info { width: 100%; float: none !important; }
+	
+	
+}
+
+
+@media (max-width: 320px) {
+
+	/*------------------------------------------*/
+	/*	 Boutons
+	/*------------------------------------------*/
+
+	.btn-theme {font-size: 13px; padding: 6px 12px;}
+
+	/*------------------------------------------*/
+	/*	 Titres
+	/*------------------------------------------*/
+
+	.titlebar h2 {font-size: 28px; line-height: 34px;}
+	.titlebar h3 {font-size: 18px;}
+	.titlebar h2:after { width: 100px;}
+
+	#services, #features, #about,  #about-1, #skills, #history, #team, #pricing, #blog, #contact-info, #testimonials, #contact { padding-left: 5px; padding-right: 5px; }
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION CONTENU
+	/*------------------------------------------*/
+	
+	#intro_content {padding-top: 130px; padding-bottom: 80px; }
+	#intro h2 {	font-size: 32px; line-height: 42px; margin-bottom: 5px; padding: 0;}
+	#intro h3 {	font-size: 16px; margin-bottom: 20px; }
+	.intro_text p {	font-size: 14px; line-height: 22px; padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION BOUTONS
+	/*------------------------------------------*/
+	
+	.intro_buttons .btn-theme {margin-bottom: 15px;}
+	
+	/*------------------------------------------*/
+	/*	 INTRODUCTION ENREGISTREMENT  
+	/*------------------------------------------*/
+	
+	.form_register h4 { font-size: 18px; }
+	.form_register form { margin: 0;}
+	
+	/*------------------------------------------*/
+	/*	  Services
+	/*------------------------------------------*/
+
+	#service-buttons a {margin-bottom: 10px;}
+	
+	/*------------------------------------------*/
+	/*	TABS
+	/*------------------------------------------*/
+
+	.nav-tabs > li > a {font-size: 16px;}
+	
+	/*------------------------------------------*/
+	/*	  Statistiques
+	/*------------------------------------------*/ 
+	
+	.statistic-number {font-size: 40px; line-height: 30px; }
+	.statistic-text {font-size: 18px;}
+	
+	
+	
+	#footer_copyright p {line-height: 24px;}
+
+	
+}
+	
+@media screen and (max-width: 767px) {
+.sign { margin-top: 20%; text-align: center; }
+}
