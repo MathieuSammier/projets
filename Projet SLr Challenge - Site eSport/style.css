@@ -1,0 +1,13 @@
+/*! NAVBAR */
+
+.navnav {
+	width: 1200px;
+}
+.home {
+	height: 45px; 
+	display: inline-block;
+}
+.titremenu {
+	height: 45px; 
+	display: inline-block;
+}
