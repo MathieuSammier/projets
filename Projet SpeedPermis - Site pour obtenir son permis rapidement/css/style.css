@@ -1,0 +1,56 @@
+/*!
+ * Style sur tout le site
+ */
+.btn-success-home {
+  color: #fff;
+  background-color: #1f329a;
+  border-color: #000000;
+  width: 130px;
+  display: block;
+  margin : auto;
+  margin-top: 3%;
+}
+.btn-sucess-home:hover {
+  color: #fff;
+  background-color: #1f329a;
+  border-color: #0062cc;
+}
+
+.btn-sucess-home:focus, .btn-sucess-home.focus {
+  color: #fff;
+}
+
+.btn-sucess-home.disabled, .btn-sucess-home:disabled {
+  color: #fff;
+  background-color: #1f329a;
+  border-color: #0062cc;
+}
+
+.btn-sucess-home:not(:disabled):not(.disabled):active, .btn-sucess-home:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #1f329a;
+  border-color: #0062cc;
+}
+
+.btn-sucess-home:not(:disabled):not(.disabled):active:focus, .btn-sucess-home:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  color: #fff;
+}
+.card-bienvenu {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 3%;
+}
+.footer {
+	background-color: #f7f7f7;
+}
