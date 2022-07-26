@@ -1,0 +1,243 @@
+body{
+	background-color:#f7f7f7;
+}
+
+.cfg-clear{
+	clear:both;
+}
+.cfg-contactform{
+	width:750px;
+	margin:auto;
+	padding:30px;
+
+}
+
+.ui-datepicker{
+	font-size:9pt !important;
+}
+
+.cfg-element-container{
+	clear:both;
+}
+.cfg-element-set{
+	margin-bottom:16px;
+}
+
+.cfg-option-set::after{ /* restore margin bottom when elements are floating */
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cfg-label{
+	display:block;
+	margin-right:10px;
+}
+
+.cfg-paragraph{
+	margin-bottom:1px; /* IE (for paragraphs above <select>) */
+}
+.captcha_container{
+	margin-top:2px;
+}
+
+.cfg-captcha-input{
+	width:110px;
+}
+
+.cfg-captcha-img{
+	border:1px solid #dcdcdc;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	
+	margin-bottom:1px; /* Opera */
+}
+
+.cfg-captcha-refresh{
+	margin-bottom:8px;
+	cursor:pointer;
+}
+.cfg-submit{
+	cursor:pointer;
+	padding:8px 4px;
+	border-radius:5px;
+	border: 5px solid #FFF;
+	background: none;
+}
+
+.cfg-required{
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.cfg-uploadsuccess-container{
+	margin-top:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+.cfg-deleteupload{
+	color:#ff0033;
+	margin-left:10px;
+	cursor:pointer;
+}
+.cfg-deleteupload:hover{
+	text-decoration:underline;
+}
+
+.cfg-loading{
+	display:none;
+	background:url('../img/loading.gif') no-repeat 0 1px;
+	padding-left:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+.cfg-errormessage, .cfg-validationmessage{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+.cfg-errormessage{
+	display:none;
+	margin:4px 0;
+	width:260px;
+}
+
+.cfg-validationmessage{
+	width:360px;
+	margin-bottom:16px;
+	padding:10px 6px;
+}
+
+.cfg-option-content input[type=radio], .cfg-option-content input[type=checkbox]{
+	margin-right:2px;
+}
+
+
+
+.cfg-label{
+	font-family:'Trebuchet MS';
+	font-weight:normal;
+	font-style:normal;
+	font-size:18px;
+	color:#4DBCE9;
+}
+
+.cfg-element-content input[type="text"], .cfg-element-content textarea, .cfg-element-content select, .cfg-option-content{
+	font-family:Verdana;
+	font-weight:normal;
+	font-style:normal;
+	font-size:12px;
+	color:#000000;
+}
+
+.cfg-element-content input[type="text"], .cfg-element-content textarea{
+	padding:5px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#dcdcdc;
+}
+
+#cfg-element-251-6-label{
+	font-family:'Trebuchet MS';
+	font-weight:normal;
+	font-style:normal;
+	font-size:18px;
+	color:#fff;
+}
+
+#cfg-element-251-6{
+	display: block;
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	line-height: 1.428571429;
+	color: #fff;
+	background-color:none;
+	border: 5px solid #fff;
+	border-radius: 40px;
+	background:none;
+	transition: none;
+}
+
+#cfg-element-251-3-label{
+	font-family:'Trebuchet MS';
+	font-weight:normal;
+	font-style:normal;
+	font-size:18px;
+	color:#fff;
+}
+
+#cfg-element-251-3{
+	display: block;
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	line-height: 1.428571429;
+	color: #fff;
+	background-color:none;
+	border: 5px solid #fff;
+	border-radius: 40px;
+	background:none;
+	transition: none;
+}
+
+#cfg-element-251-4-label{
+	font-family:'Trebuchet MS';
+	font-weight:normal;
+	font-style:normal;
+	font-size:18px;
+	color:#fff;
+}
+
+#cfg-element-251-4{
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	line-height: 1.428571429;
+	color: #fff;
+	background-color: none;
+	border: 5px solid #fff;
+	border-radius: 20px;
+	background: none;
+	transition: none;
+}
+}
+
+#cfg-element-251-5{
+	width: auto;
+	border-style: solid;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 250px;
+	padding: 10px 35px 15px 35px;
+	color: #ffffff;
+	border-color: #FFFFFF;
+	background: none;
+}
+
+#cfg-element-251-5:hover{
+	border-color:#DB1212;
+}
+
+.cfg-validationmessage{
+	color: #00A000;
+	padding: 5px 7px;
+	border: 2px solid #fff;
+}
+
+.cfg-errormessage{
+	color: #fff;
+	padding: 5px 7px;
+	margin-left: 390px;
+}
