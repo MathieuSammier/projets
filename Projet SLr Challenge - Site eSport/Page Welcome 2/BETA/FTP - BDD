@@ -1,0 +1,13 @@
+Accès FTP : 
+FileZilla : http://filezilla.fr/telecharger-filezilla/
+Ensuite dans le logiciel : Fichier --> Gestionnaire des sites --> Nouveau site --> SLr-Challenge --> Hôte : ftp.slr-challenge.fr      
+Port : 21 ou rien du tout  
+Type d'authentification : Normale   
+Identifiant : slrchall     
+Mot de passe : challenge14
+
+Accès BDD (phpMyAdmin) : 
+PhpMyAdmin : https://phpmyadmin.ovh.net/
+Serveur : mysql51-130.perso
+Login : slrchallbdd
+Mot de passe : challenge14
