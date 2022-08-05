@@ -1,0 +1,30 @@
+1
+00:00:3,000 --> 00:00:8,000
+Voici la page d'accueil de NeoShop !
+2
+00:00:9,000 --> 00:00:16,000
+Voici les offres du moments, les nouveautés ainsi que la config de la semaine
+3
+00:00:17,000 --> 00:00:25,000
+Ici un jeu concours toutes les semaines pour gagner des récompenses ! 
+4
+00:00:32,000 --> 00:00:40,000
+Dans bureautique vous pourrez y retrouver des configurations spécialement réalisées par nous mêmes 
+5
+00:00:40,000 --> 00:00:44,000
+Avec la possibilité de faire vos achats sécurisés
+6
+00:00:44,000 --> 00:00:56,000
+De même pour "Gaming" des configurations pour les plus grands joueurs ! 
+7
+00:00:56,000 --> 00:01:05,000
+Vous pourrez acheter aussi vos composants seuls
+8
+00:01:06,000 --> 00:01:10,000
+Des tutoriels seront là pour vous conseiller sur le montage de ces composants 
+9
+00:01:11,000 --> 00:01:15,000
+Nous avons aussi une partie rédaction avec des tests et reviews 
+10
+00:01:16,000 --> 00:01:26,000
+Et une page contact pour entrer en contact avec la matrice, pilule bleue ou pilule rouge !
