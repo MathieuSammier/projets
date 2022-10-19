@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TecHS - Lille - Dépannage informatique</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/devis.css">
+
+</head>
+
+<body>
+
+    <!-- Barre de navigation  -->
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo" width="80" height="80" class="d-inline-block me-2 align-text-center">
+                TecHS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link" href="depannage.html">Depannage</a>
+                    <a class="nav-link" href="reparation.html">Reparation</a>
+                    <a class="nav-link" href="montage.html">Montage</a>
+                    <!-- <a class="nav-link" href="#">Contact</a> -->
+                </div>
+                <a class="btn btn-index-navdevis" href="devis.html" role="button">Devis gratuit</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Etapes devis  -->
+
+    <div class="bg-presentation container-fluid py-6">
+        <div class="d-flex justify-content-center">
+            <div class="etapes-devis d-flex flex-column py-4">
+                <h2 class="greentec">ETAPES</h2>
+                <div class="d-flex justify-content-around">
+                    <div class="etapesdev-txt">
+                        <a href="#">
+                            <div class="logo-form-devis mx-auto"></div>
+                        </a>
+                        <p class="rl mt-4">Remplir le formulaire ci-dessous</p>
+                    </div>
+                    <div class="etapesdev-txt">
+                        <a href="#">
+                            <div class="logo-mail-devis mx-auto"></div>
+                        </a>
+                        <p class="rl mt-4">Attendre la réponse par mail (24h maximum)</p>
+                    </div>
+                    <div class="etapesdev-txt">
+                        <a href="#">
+                            <div class="logo-valid mx-auto"></div>
+                        </a>
+                        <p class="rl mt-4">Validation de l'intervention</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="devis-frais mx-auto mt-5">
+            <div class="d-flex justify-content-center">
+                <img src="img/components/devis/facture.png" alt="Logo" class="logo-facture">
+                <p class="txt-devis-facture">Des frais de devis peuvent-être appliqués dans le cadre d'une
+                    réparation en atelier</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulaire -->
+
+    <div class="container-fluid py-5 text-center">
+        <h1 class="rt">FORMULAIRE</h1>
+        <div class="container py-4">
+            <p>Votre demander concerne :</p>
+            <div class="all-devisform-demande">
+                <div class="devis-depan"><img src="img/components/devis/page-devis-icone-form-depannage.png" alt="Logo">
+                    <p>Un dépannage</p>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    </div>
+                </div>
+                <div class="devis-repair"><img src="img/components/devis/page-devis-icone-form-repair.png" alt="Logo">
+                    <p>Une réparation</p>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    </div>
+                </div>
+                <div class="devis-montage"><img src="img/components/devis/page-devis-icone-form-montage.png" alt="Logo">
+                    <p>Un montage</p>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    </div>
+                </div>
+            </div>
+            <div class="all-devisform-info">
+                <div class="devisform-info-g">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Nom(s) et Prénom(s)">
+                        <label for="floatingInput">Nom(s) et Prénom(s)</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="nom@exemple.com">
+                        <label for="floatingInput">Adresse e-mail</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="number" class="form-control" id="floatingInput" placeholder="Numéro de téléphone">
+                        <label for="floatingInput">Numéro de téléphone</label>
+                      </div>
+                </div>
+                <div class="devisform-info-d">
+                      <div class="form-floating">
+                        <textarea class="form-control devis-commentaire" placeholder="Laisser un commentaire ici" id="floatingTextarea2"></textarea>
+                        <label for="floatingTextarea2">Votre demande</label>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+
+    <footer>
+        <div class="container-fluid py-3 text-center">
+            <div class="conatiner d-flex justify-content-around">
+                <a href="#">
+                    <div class="logo-white"></div>
+                    <p>TecHS</p>
+                </a>
+                <div class="d-flex flex-column">
+                    <p>Navigation</p>
+                    <a href="depannage.html">Dépannage</a>
+                    <a href="reparation.html">Réparation</a>
+                    <a href="montage.html">Montage</a>
+                    <!-- <a href="#">Contact</a> -->
+                    <a href="devis.html">Devis</a>
+                </div>
+                <div class="localisation d-flex flex-column">
+                    <p>Localisation </br> Métropole Lilloise :</p>
+                    <div>
+                        <a href="#">
+                            <div class="localisation-logo"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

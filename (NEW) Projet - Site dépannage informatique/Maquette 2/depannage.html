@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TecHS - Lille - Dépannage informatique</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/depannage.css">
+
+</head>
+
+<body>
+
+    <!-- Barre de navigation  -->
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-purple.png" alt="Logo" width="80" height="80"
+                    class="d-inline-block me-2 align-text-center">
+                TecHS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="depannage.html">Depannage</a>
+                    <a class="nav-link" href="reparation.html">Reparation</a>
+                    <a class="nav-link" href="montage.html">Montage</a>
+                    <!-- <a class="nav-link" href="#">Contact</a> -->
+                </div>
+                <a class="btn btn-index-navdevis" href="devis.html" role="button">Devis gratuit</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Diagnostique / Devis  -->
+
+    <div class="bg-diag container-fluid py-6 text-center">
+        <h1 class="rt mb-5">DIAGNOSTIQUE / DEVIS</h1>
+        <div class="diagdevis mx-auto py-3">
+            <div class="container py-2">
+                <div class="d-flex justify-content-around">
+                    <div>
+                        <a href="#">
+                            <div class="logo-form mx-auto"></div>
+                        </a>
+                        <p class="rl mt-3">Description </br>de la panne</p>
+                        <p class="diaginfo">Avec des photos </br> c'est encore mieux !</p>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="logo-chrono mx-auto"></div>
+                        </a>
+                        <p class="rl mt-4">Réponse sous 24H</p>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="logo-soluce mx-auto"></div>
+                        </a>
+                        <p class="rl mt-4">Solutions</p>
+                        <p class="diaginfo mt-5">A distance / A domicile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pack Clean  -->
+
+    <div class="packclean container-fluid py-5 text-center">
+        <h1 class="rt">PACK CLEAN</h1>
+        <div class="container py-4">
+            <div class="packclean-items d-flex justify-content-evenly">
+                <img src="img/components/depan/packclean-depan.png" alt="Pack Clean" width="300" height="300">
+                <div class="packclean-presentation">
+                    <p class="pt-5">Donner une seconde vie à votre appareil (Sauvegarde, Nettoyage, Réinitialisation)
+                        : </br></br> - Sauvegarde de vos données</br> - Réinitialisation de votre ordinateur</br> -
+                        Installation de Windows (avec antivirus gratuit, logiciels de nettoyage et de maintenance)</br>
+                        - Installation de votre navigateur préféré</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-offre d-flex justify-content-end me-5"><a href="#">Plus d'information sur l'offre ici</a></div>
+    </div>
+
+    <!-- Pack Smartphone  -->
+
+    <div class="packsmartphone container-fluid py-5 text-center">
+        <h1 class="rt">PACK SMARTPHONE</h1>
+        <div class="container py-4">
+            <div class="packsmartphone-items d-flex justify-content-start">
+                <div class="packsmartphone-presentation">
+                    <p class="pt-5">Transfert de données de votre ancien appareil vers le nouveau aini que son installation :</br></br> - Sauvegarde de vos données</br> - Réinitialisation de l'ancien appareil</br> -
+                        Installation de votre nouveau Smartphone</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-offre-purple d-flex justify-content-start ms-5"><a href="#">Plus d'information sur l'offre ici</a></div>
+    </div>
+
+    <!-- Bouton devis  -->
+
+    <div class="container-fluid py-6 text-center">
+        <a class="btn btn-depan-devis my-2 py-4" href="#" role="button">DEMANDER UN DEVIS</a>
+    </div>
+
+    <!-- Footer  -->
+
+    <footer>
+        <div class="container-fluid py-3 text-center">
+            <div class="conatiner d-flex justify-content-around">
+                <a href="index.html">
+                    <div class="logo-white"></div>
+                    <p>TecHS</p>
+                </a>
+                <div class="d-flex flex-column">
+                    <p>Navigation</p>
+                    <a href="depannage.html">Dépannage</a>
+                    <a href="reparation.html">Réparation</a>
+                    <a href="montage.html">Montage</a>
+                    <!-- <a href="#">Contact</a> -->
+                    <a href="devis.html">Devis</a>
+                </div>
+                <div class="localisation d-flex flex-column">
+                    <p>Localisation </br> Métropole Lilloise :</p>
+                    <div>
+                        <a href="#">
+                            <div class="localisation-logo"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
