@@ -1,0 +1,24 @@
+/*!
+ * Style sur tout le site
+ */
+
+/*!
+ * NAVBAR
+ */
+
+.bg-techs {
+	background-color: #f1f0eb;
+}
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active {
+  color: #00C040;
+}
+.nav-link.active {
+    text-decoration: underline 0.1em;
+	border-right-width: 0.1em;
+	border-left-width: 0.1em;
+    border-right-style: solid;
+	border-left-style: solid;
+    border-right-color: #e9e8e2;
+	border-left-color: #e9e8e2;
+  }
